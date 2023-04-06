@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="logintest">
+        <classes>
+            <class name="com.javaAutoTest.testng.suite.SuiteConfig"/>
+            <class name="com.javaAutoTest.testng.suite.LoginTest"/>
+        </classes>
+    </test>
+    <test name="addtest">
+        <classes>
+            <class name="com.javaAutoTest.testng.suite.SuiteConfig"/>
+            <class name="com.javaAutoTest.testng.suite.AddTest"/>
+        </classes>
+    </test>
+</suite>

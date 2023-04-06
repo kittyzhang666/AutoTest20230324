@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="extentReport">
+    <test name="测试模块">
+        <classes>
+            <class name="com.javaAutoTest.testng.asserts.AssertTest">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="com.javaAutoTest.testreport.ExtentTestNGIReporterListener" />-->
+        <listener class-name="com.javaAutoTest.testreport.ExtentTestNGIReporterListener" />
+    </listeners>
+</suite>
