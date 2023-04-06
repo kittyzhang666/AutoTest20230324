@@ -1,7 +1,0 @@
-this is a txt file
-123456789
-today is 20230324
-now is 15:06
-
-new add--branch1:
-now is 15:40

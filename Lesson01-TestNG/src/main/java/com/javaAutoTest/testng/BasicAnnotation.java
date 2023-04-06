@@ -1,6 +1,7 @@
 package com.javaAutoTest.testng;
-import org.testng.annotations.*;
+
 import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class BasicAnnotation {
     //TestNG注解
