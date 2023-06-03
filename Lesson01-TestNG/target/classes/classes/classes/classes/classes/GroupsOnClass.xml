@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitename">
+    <test name="runall">
+        <classes>
+            <class name="com.javaAutoTest.testng.groups.GroupsOnClass01"/>
+            <class name="com.javaAutoTest.testng.groups.GroupsOnClass02"/>
+            <class name="com.javaAutoTest.testng.groups.GroupsOnClass03"/>
+        </classes>
+    </test>
+    <test name="only run user">
+        <groups>
+            <run>
+                <include name="user"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.javaAutoTest.testng.groups.GroupsOnClass01"/>
+            <class name="com.javaAutoTest.testng.groups.GroupsOnClass02"/>
+            <class name="com.javaAutoTest.testng.groups.GroupsOnClass03"/>
+        </classes>
+
+    </test>
+
+</suite>
